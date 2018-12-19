@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jason/systems/handshake/basic_server.c
+pipe_networking.h
+/Users/jason/systems/handshake/pipe_networking.h
+
+/Users/jason/systems/handshake/client.c
+pipe_networking.h
+/Users/jason/systems/handshake/pipe_networking.h
+
+/Users/jason/systems/handshake/pipe_networking.c
+pipe_networking.h
+/Users/jason/systems/handshake/pipe_networking.h
+
+/Users/jason/systems/handshake/pipe_networking.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+fcntl.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+string.h
+-
+errno.h
+-
+
